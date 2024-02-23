@@ -1,0 +1,52 @@
+body{
+    background-color: black;
+    padding: 0;
+    margin: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.container{
+  width: 800px;
+  margin: 20px auto;
+  display: flex;
+  justify-content: space-between ;              
+  color: white; 
+}
+.mysearch{
+    width: 85%;
+    background-color: lightgray;
+    border: none;
+    font-size: 18px;
+    padding: 17px;  
+}
+.mysearch:focus{
+    outline: none;
+    /* border: none; */
+}
+.btn{
+    width: 15%;
+    background-color: red;
+    color: white;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+}
+
+p{
+    color: aqua;
+    font-weight: bolder;
+    margin: 0 0 10px 0;
+    font-size: 19px;
+}
+span{
+    font-weight: lighter;
+    color: white;
+    margin: 0 0 10px 0;
+    font-size: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.poster{
+    width: 320px;
+    /* padding: 5px;
+    border-radius: 5px;
+     */
+}
